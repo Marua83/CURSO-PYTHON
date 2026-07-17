@@ -1,0 +1,19 @@
+import os
+os.system("cls")
+
+objetivo= 10000
+ahorro=0
+
+
+
+while ahorro < objetivo:
+    deposito = float(input("Depósito (0 para parar): "))    
+    ahorro = ahorro + deposito
+
+print(f"llevas ahorrado {ahorro}")
+
+if ahorro > objetivo:
+    print("llegaste objetivo")
+
+else:
+    print("no llegaste")
